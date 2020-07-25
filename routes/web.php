@@ -16,6 +16,11 @@ Route::get('/', function () {
 });
 
 
-Route::get("hello",'TestController@hello');
 
+Route::get("/test1","TestController@test1");
+Route::get("/test2","TestController@test2");
+
+
+Route::get('/easa','TestController@easa');
+Route::get('/sign1','TestController@sign1');
 
